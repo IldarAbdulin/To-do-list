@@ -1,0 +1,49 @@
+body{
+    background: #111;
+}
+.box{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.box button {
+    width: 325px;
+    padding: 10px 20px;
+}
+#input {
+    width: 300px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+}
+#add {
+    background: linear-gradient(to right top, #015e0e, #067711, #119112, #1dac11, #2bc70c);
+    cursor: pointer;
+}
+#delete {
+    background-image: linear-gradient(to right top, #5e0101, #770313, #910522, #ac0832, #c70c45);
+    cursor: pointer;
+}
+.task{
+    cursor: pointer;
+    padding: 0px 10px;
+    background: linear-gradient(to right top, #015e0e, #067711, #119112, #1dac11, #2bc70c);
+    display: flex;
+}
+.completed {
+    background: linear-gradient(to right top, #5e0101, #770313, #910522, #ac0832, #c70c45);
+    color: #141776;
+}
+#zadachi{
+    display: flex;;
+    flex-direction: column;
+    gap: 10px;
+}
+#zadachi input {
+    margin: 0 10px;
+    width: 20px;
+}
